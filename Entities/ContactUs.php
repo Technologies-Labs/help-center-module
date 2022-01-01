@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\HelpCenterModule\Entities;
+namespace Modules\HelpCenter\Entities;
 
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;

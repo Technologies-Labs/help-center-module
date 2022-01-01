@@ -1,7 +1,7 @@
 <?php
 namespace Modules\ProductModule\Services;
 
-use Modules\HelpCenterModule\Entities\Compliant;
+use Modules\HelpCenter\Entities\Compliant;
 
 
 class CompliantService{

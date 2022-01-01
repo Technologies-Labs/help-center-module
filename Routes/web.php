@@ -39,3 +39,10 @@ Route::prefix('announcements')->group(function() {
     Route::get('/delete/{id}','AnnouncementController@destroy');
 
 });
+
+Route::get('/about-us','HelpCenterModuleController@aboutUs')->name('about.us');
+Route::get('/contactUs','HelpCenterModuleController@contactUs')->name('contact.us');
+Route::get('/helpCenter','HelpCenterModuleController@helpCenter')->name('help.center');
+Route::get('/privacyPolicy','HelpCenterModuleController@privacyPolicy')->name('privacy.policy');
+Route::get('/termsOfUse','HelpCenterModuleController@termsOfUse')->name('terms.of.use');
+

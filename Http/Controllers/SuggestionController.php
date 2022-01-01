@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\HelpCenterModule\Http\Controllers;
+namespace Modules\HelpCenter\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Modules\HelpCenterModule\Entities\Suggestion;
+use Modules\HelpCenter\Entities\Suggestion;
 
 class SuggestionController extends Controller
 {

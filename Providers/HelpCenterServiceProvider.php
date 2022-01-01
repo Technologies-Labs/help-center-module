@@ -1,21 +1,21 @@
 <?php
 
-namespace Modules\HelpCenterModule\Providers;
+namespace Modules\HelpCenter\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
-class HelpCenterModuleServiceProvider extends ServiceProvider
+class HelpCenterServiceProvider extends ServiceProvider
 {
     /**
      * @var string $moduleName
      */
-    protected $moduleName = 'HelpCenterModule';
+    protected $moduleName = 'HelpCenter';
 
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'helpcentermodule';
+    protected $moduleNameLower = 'helpcenter';
 
     /**
      * Boot the application events.
