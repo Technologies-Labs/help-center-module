@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\HelpCenterModule\Entities;
+namespace Modules\HelpCenter\Entities;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
@@ -33,6 +33,6 @@ class Announcement extends Model
 
     // protected static function newFactory()
     // {
-    //     return \Modules\HelpCenterModule\Database\factories\AnnouncementFactory::new();
+    //     return \Modules\HelpCenter\Database\factories\AnnouncementFactory::new();
     // }
 }

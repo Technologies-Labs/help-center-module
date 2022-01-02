@@ -1,8 +1,8 @@
 <?php
-namespace Modules\HelpCenterModule\Services;
+namespace Modules\HelpCenter\Services;
 
-use Modules\HelpCenterModule\Entities\ContactUs;
-use Modules\HelpCenterModule\Http\Requests\ContactUsRequest;
+use Modules\HelpCenter\Entities\ContactUs;
+use Modules\HelpCenter\Http\Requests\ContactUsRequest;
 use App\Traits\UploadTrait;
 
 use function PHPUnit\Framework\isNull;

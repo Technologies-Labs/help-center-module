@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\HelpCenterModule\Http\Controllers;
+namespace Modules\HelpCenter\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
-use Modules\HelpCenterModule\Http\Requests\ContactUsRequest;
-use Modules\HelpCenterModule\Services\ContactUsService;
+use Modules\HelpCenter\Http\Requests\ContactUsRequest;
+use Modules\HelpCenter\Services\ContactUsService;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 

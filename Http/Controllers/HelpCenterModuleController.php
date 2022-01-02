@@ -1,79 +1,33 @@
 <?php
 
-namespace Modules\HelpCenterModule\Http\Controllers;
+namespace Modules\HelpCenter\Http\Controllers;
 
-use Illuminate\Contracts\Support\Renderable;
-use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
 class HelpCenterModuleController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     * @return Renderable
-     */
-    public function index()
+    public function aboutUs()
     {
-        return view('helpcentermodule::index');
+        return view('helpcenter::website.about-us');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     * @return Renderable
-     */
-    public function create()
+    public function contactUs()
     {
-        return view('helpcentermodule::create');
+        return view('helpcenter::website.contact-us');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     * @param Request $request
-     * @return Renderable
-     */
-    public function store(Request $request)
+    public function helpCenter()
     {
-        //
+        return view('helpcenter::website.help-center');
     }
 
-    /**
-     * Show the specified resource.
-     * @param int $id
-     * @return Renderable
-     */
-    public function show($id)
+    public function privacyPolicy()
     {
-        return view('helpcentermodule::show');
+        return view('helpcenter::website.privacy-n-policy');
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     * @param int $id
-     * @return Renderable
-     */
-    public function edit($id)
+    public function termsOfUse()
     {
-        return view('helpcentermodule::edit');
-    }
-
-    /**
-     * Update the specified resource in storage.
-     * @param Request $request
-     * @param int $id
-     * @return Renderable
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     * @param int $id
-     * @return Renderable
-     */
-    public function destroy($id)
-    {
-        //
+        return view('helpcenter::website.terms-of-use');
     }
 }

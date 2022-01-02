@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\HelpCenterModule\Http\Controllers;
+namespace Modules\HelpCenter\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Modules\HelpCenterModule\Entities\Announcement;
+use Modules\HelpCenter\Entities\Announcement;
 
 class AnnouncementController extends Controller
 {public function __construct(){
